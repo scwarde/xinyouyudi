@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "心有余地",
+  "short_name": "心有余地",
+  "description": "给情绪留一点空间。本地优先的压力觉察与心理技能练习。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f7f1",
+  "theme_color": "#587c69",
+  "icons": [
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
+    {"src": "./icon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}

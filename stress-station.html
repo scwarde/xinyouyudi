@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#587c69">
+  <meta name="description" content="心有余地｜给情绪留一点空间。免注册、本地优先的压力觉察、心理技能练习与心情记录工具。">
+  <title>心有余地｜给情绪留一点空间</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="core.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a href="#view" class="skip">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="心有余地首页"><img src="icon.svg" width="44" height="44" alt=""><span><strong>心有余地</strong><small>给情绪留一点空间</small></span></a>
+    <span class="local-badge">◦ 免注册 · 本地记录</span>
+    <button class="icon-button" data-action="theme" aria-label="切换深色模式" title="切换深色模式">◐</button>
+  </header>
+  <nav id="nav" class="main-nav" aria-label="主要导航">
+    <a href="#home"><span aria-hidden="true">⌂</span><span>首页</span></a>
+    <a href="#calm"><span aria-hidden="true">◌</span><span>当下安定</span></a>
+    <a href="#mood"><span aria-hidden="true">＋</span><span>心情记录</span></a>
+    <a href="#tools"><span aria-hidden="true">❋</span><span>练习工具</span></a>
+    <a href="#me"><span aria-hidden="true">♧</span><span>我的</span></a>
+  </nav>
+  <main id="view" tabindex="-1"></main>
+  <footer>用于自我觉察与技能练习，不用于诊断。若痛苦持续影响生活，可以寻求专业支持。<br><a href="#evidence">证据与安全</a> · <a href="#me">数据与设置</a></footer>
+  <div id="notice" class="notice" role="status" aria-live="polite"></div>
+  <dialog id="confirmDialog" aria-labelledby="confirmTitle"><div class="dialog-body"><h2 id="confirmTitle">再确认一下</h2><p id="confirmText"></p><div class="row"><button class="secondary" data-action="cancel-confirm">先保留</button><button data-action="accept-confirm">确认</button></div></div></dialog>
+  <noscript>请启用浏览器 JavaScript 后使用练习和记录功能。没有数据会被上传。</noscript>
+</body>
+</html>
